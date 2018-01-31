@@ -6,7 +6,7 @@ export class SearchRequest {
   constructor(config?) {
     config = config || {};
     this.flightNumber = config.flightNumber;
-    this.origin = this.origin;
+    this.origin = config.origin;
     this.destination = config.destination;
     this.date = config.date;
   }

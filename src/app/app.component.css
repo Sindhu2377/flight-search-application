@@ -1,6 +1,9 @@
 .search-page{
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
+}
+.error{
+  color: #ff0000;
 }
 
 form {
@@ -12,8 +15,9 @@ form div {
 }
 
 table{
+  margin-left: 20px;
   width: 100%;
-  border: 1px solid black;
+  border: 1px solid #393737;
 }
 tr{
   width: 100%;
@@ -35,8 +39,10 @@ button {
  height: 40px;
  border-radius: 10px;
  background-color: #3ba1e9;
+ cursor: pointer;
 }
 
 button:disabled {
   background-color: #FFF;
+  cursor: not-allowed;
 }
